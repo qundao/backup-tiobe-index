@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 8 15 * *"
+    - cron: "0 10 10,20 * *"
 
 jobs:
   process:
@@ -38,4 +38,4 @@ jobs:
           commit_message: Automated update
           # commit_options: '--no-verify --signoff'
           push_options: "--force"
-          file_pattern: "*.tsv"
+          # file_pattern: "*.tsv"
