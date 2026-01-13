@@ -160,12 +160,15 @@ def get_version(element):
 def parse_top_all(article):
     data_top20, cols1 = parse_top20(article)
     data_top50, cols2 = parse_top50(article)
+
     start = len(data_top20 + data_top50)
     data_top100 = parse_top100(article, start)
 
-    cols1[2] = "Position#"
+    cols2[0] = cols1[0]
+    cols1[2] = "Trending"  # Change
     data_list = [data_top20, data_top50, data_top100]
     col_list = [cols1, cols2, cols2[:2]]
+
     df_list = []
     for data, cols in zip(data_list, col_list):
         if data:
@@ -186,7 +189,7 @@ def parse_top_all(article):
     return df2
 
 
-def download(save_dir, force=False):
+def download(save_dir, ignore=True):
     logging.info(f"Request {URL}")
     headers = {"User-Agent": USER_AGENT}
 
@@ -205,7 +208,7 @@ def download(save_dir, force=False):
     year = version.split("-")[0]
     save_file = Path(save_dir, f"{year}/{version}.tsv")
     logging.info(f"Save to {save_file}")
-    if not force and save_file.exists():
+    if ignore and save_file.exists():
         logging.warning("File exists, ignore")
         return
 
@@ -252,4 +255,4 @@ if __name__ == "__main__":
     fmt = "%(asctime)s %(levelname)s %(message)s"
     logging.basicConfig(level=logging.INFO, format=fmt)
 
-    download(".", True)
+    download(".")
