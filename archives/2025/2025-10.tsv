@@ -1,21 +1,101 @@
-Programming Language	Oct 2025	Oct 2024	Ratings(%)	Change(%)
-Python	1	1	24.45	2.55
-C	2	4	9.29	0.91
-C++	3	2	8.84	-2.77
-Java	4	3	8.35	-2.15
-C#	5	5	6.94	1.32
-JavaScript	6	6	3.41	-0.13
-Visual Basic	7	7	3.22	0.87
-Go	8	8	1.92	-0.1
-Delphi/Object Pascal	9	10	1.86	0.19
-SQL	10	11	1.77	0.13
-Fortran	11	9	1.7	-0.1
-Perl	12	29	1.66	1.1
-R	13	17	1.52	0.43
-PHP	14	15	1.38	0.17
-Assembly Language	15	16	1.2	0.07
-Rust	16	13	1.19	-0.25
-MATLAB	17	12	1.16	-0.32
-Scratch	18	14	1.15	-0.26
-Ada	19	24	0.98	0.25
-Kotlin	20	21	0.98	0.01
+Programming Language	Oct 2025	Oct 2024	Position#	Ratings	Change
+Python	1	1		24.45%	+2.55%
+C	2	4	up	9.29%	+0.91%
+C++	3	2	down	8.84%	-2.77%
+Java	4	3	down	8.35%	-2.15%
+C#	5	5		6.94%	+1.32%
+JavaScript	6	6		3.41%	-0.13%
+Visual Basic	7	7		3.22%	+0.87%
+Go	8	8		1.92%	-0.10%
+Delphi/Object Pascal	9	10	up	1.86%	+0.19%
+SQL	10	11	up	1.77%	+0.13%
+Fortran	11	9	down	1.70%	-0.10%
+Perl	12	29	upup	1.66%	+1.10%
+R	13	17	upup	1.52%	+0.43%
+PHP	14	15	up	1.38%	+0.17%
+Assembly language	15	16	up	1.20%	+0.07%
+Rust	16	13	down	1.19%	-0.25%
+MATLAB	17	12	downdown	1.16%	-0.32%
+Scratch	18	14	downdown	1.15%	-0.26%
+Ada	19	24	upup	0.98%	+0.25%
+Kotlin	20	21	up	0.98%	+0.01%
+Classic Visual Basic	21			0.97%	
+Swift	22			0.94%	
+COBOL	23			0.86%	
+Prolog	24			0.80%	
+Ruby	25			0.77%	
+SAS	26			0.65%	
+Dart	27			0.62%	
+Lisp	28			0.55%	
+(Visual) FoxPro	29			0.47%	
+Julia	30			0.46%	
+Objective-C	31			0.46%	
+Haskell	32			0.45%	
+Lua	33			0.38%	
+Scala	34			0.36%	
+TypeScript	35			0.31%	
+PL/SQL	36			0.26%	
+VBScript	37			0.24%	
+GAMS	38			0.24%	
+ABAP	39			0.23%	
+Solidity	40			0.20%	
+Elixir	41			0.19%	
+V	42			0.17%	
+Zig	43			0.17%	
+Bash	44			0.16%	
+ML	45			0.16%	
+Transact-SQL	46			0.15%	
+PowerShell	47			0.15%	
+Erlang	48			0.15%	
+RPG	49			0.14%	
+Ladder Logic	50			0.14%	
+ActionScript	51				
+Algol	52				
+Apex	53				
+Awk	54				
+B4X	55				
+Caml	56				
+CLIPS	57				
+Clojure	58				
+D	59				
+Elm	60				
+F#	61				
+Forth	62				
+Groovy	63				
+Hack	64				
+Icon	65				
+Inform	66				
+Io	67				
+J	68				
+JScript	69				
+LabVIEW	70				
+Logo	71				
+Modula-2	72				
+Mojo	73				
+MQL5	74				
+NATURAL	75				
+Nim	76				
+OCaml	77				
+Occam	78				
+OpenCL	79				
+OpenEdge ABL	80				
+PL/I	81				
+Q	82				
+Raku	83				
+REXX	84				
+S	85				
+Scheme	86				
+Simulink	87				
+Small Basic	88				
+Smalltalk	89				
+SPARK	90				
+Stata	91				
+Structured Text	92				
+SystemVerilog	93				
+Tcl	94				
+Vala/Genie	95				
+VHDL	96				
+Wolfram	97				
+X++	98				
+XC	99				
+Xojo	100				
