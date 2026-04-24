@@ -1,7 +1,6 @@
 import logging
-from pathlib import Path
 import re
-import json
+from pathlib import Path
 
 import json5
 import pandas as pd
