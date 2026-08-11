@@ -213,7 +213,9 @@ def download(save_dir, ignore=True):
 
     if not save_file.parent.exists():
         save_file.parent.mkdir(parents=True)
-    article = soup.article
+
+    # article = soup.article
+    article = soup
     df = parse_top_all(article)
     if df is not None:
         logging.info(f"Save {save_file}, data = {len(df)}")
